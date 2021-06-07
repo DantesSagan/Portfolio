@@ -61,6 +61,7 @@ li:active {
   color: white;
   font-size: 20px;
   font-family: 'Source Serif Pro', serif;
+  
 }
 
 #nav-link:hover {
@@ -78,6 +79,7 @@ li:active {
   font-size: 20px;
   font-family: 'Source Serif Pro', serif;
   border-radius: 30px;
+  
 }
 
 .nav-link:hover {
@@ -214,7 +216,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 3rem;
+  grid-gap: 1.5rem;
   background: linear-gradient(
     90deg,
     rgba(1, 20, 33, 1) 0%,
@@ -241,8 +243,8 @@ h2 {
   justify-content: center;
   align-items: center;
   content: '';
-  width: 450px;
-  height: 450px;
+  width: 425px;
+  height: 425px;
   background: rgba(163, 146, 247, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border: 1px solid rgba(255, 255, 255, 0.18);
